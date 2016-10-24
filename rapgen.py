@@ -58,6 +58,6 @@ def testMarkov(startword):
 	addToLib('allLyrics.txt', rapLib)
 	return makeRap(startword, rapLib)
 
-startWord = raw_input("What do you want to start your rap with?\n")
+startWord = raw_input("Initial word?\n")
 
-print testMarkov('\nAlright, here\'s your rap: \n' + testMarkov(startWord))
+print testMarkov('\nSkepta Lyrics: \n' + testMarkov(startWord))
